@@ -1,0 +1,76 @@
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ffe6f0, #ffffff);
+}
+
+/* ===== JUDUL ===== */
+h1 {
+    color: #E01861;
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+/* ===== TEKS UMUM ===== */
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* ===== TABLE UTAMA ===== */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* ===== CELL ===== */
+td {
+    padding: 15px;
+    border: 1px solid #f1f1f1;
+}
+
+/* ===== MENU LINK ===== */
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background: #ff69b4;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    background: #ff1493;
+    transform: scale(1.05);
+}
+
+/* ===== GAMBAR NORMAL ===== */
+img {
+    max-width: 300px;   /* ukuran foto utama */
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* ===== KHUSUS ICON SOSMED (lebih kecil) ===== */
+td img[src*="instagram"],
+td img[src*="tiktok"],
+td img[src*="wa"] {
+    width: 40px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
